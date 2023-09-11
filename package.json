@@ -1,0 +1,20 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ramda": "^0.29.3",
+    "fp-ts": "^2.16.1",
+    "immutable": "5.0.0-beta.4",
+    "rambda": "^8.3.0",
+    "ramda": "^0.29.0"
+  },
+  "devDependencies": {}
+}

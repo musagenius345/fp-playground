@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",     // Use ESNext to enable ES module output.
+    "outDir": "./dist",     // Specify your output directory if needed.
+    "rootDir": "./src",     // Specify your source directory.
+    "target": "ESNext",     // Target ESNext for modern ESM support.
+    "moduleResolution": "node",
+    "esModuleInterop": true, // Enable ES module interop for import/export compatibility.
+    "declaration": true,    // Optional: Generate .d.ts files if needed.
+    "declarationMap": true, // Optional: Generate source map for .d.ts files.
+    "types": ["node"],      // Include Node.js types if needed.
+    "typeRoots": ["./node_modules/@types"], // Specify type roots if needed.
+    "resolveJsonModule": true // Enable importing JSON modules.
+  },
+  "exclude": ["node_modules"]
+}
